@@ -74,13 +74,7 @@ img {
 
 /* Parte Responsive */
 
-@media screen and (max-width: 992px) {
-
-  .row {
-    width: 100%;
-  }
-}
-
+/* Smartphone < 420px */
 
 @media screen and (max-width: 420px) {
 
@@ -89,6 +83,7 @@ img {
   }
   .row {
     width: 100%;
+    margin-top: 0px;
   }
 
   #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.right, #steps .row>.central {
@@ -114,4 +109,13 @@ img {
     margin-bottom:15px;
   }
 
+}
+
+/* Tablet */
+
+@media screen and (min-width: 421px) and (max-width: 1024px) {
+
+  .row {
+    width: 100%;
+  }
 }
