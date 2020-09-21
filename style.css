@@ -78,6 +78,10 @@ img {
 
 @media screen and (max-width: 420px) {
 
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     margin:0px;
   }
@@ -109,11 +113,25 @@ img {
     margin-bottom:15px;
   }
 
+  #why .row>.first hr, #why .row>.second hr {
+    margin-top:25px;
+  }
+
+  #why .row>.first, #why .row>.second, #why .row>.third {
+    width: 100%;
+    margin-top: 25px;
+    padding: 20px;
+  }
+
 }
 
 /* Tablet */
 
 @media screen and (min-width: 421px) and (max-width: 1024px) {
+
+  * {
+    box-sizing: border-box;
+  }
 
   .row {
     width: 100%;
